@@ -1,26 +1,32 @@
 body {
+    width: 100vw;
+    height: 100vh;
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: sans-serif;
+    background-color: #636e72;
 }
 
 #container {
     width: 550px;
-    height: 729px;
+    height: 687px;
     background-color: rgba(31, 41, 55, 1);
+    border: 3px solid #fff;
+    border-radius: 20px;
 }
 
 #main {
     width: 100%;
-    height: 285px;
+    height: 255px;
     background-color: #6943FF;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 20px 20px 0px 0px;
 }
 
 #heading {
@@ -30,6 +36,8 @@ body {
     font-weight: bold;
     line-height: 38px;
     text-transform: capitalize;
+    margin: 0px 0px 20px;
+    text-align: center;
 }
 
 #input-box {
@@ -63,9 +71,13 @@ body {
     cursor: pointer;
 }
 
+#convert-btn:hover {
+    box-shadow: 0px 0px 10px #251f36;
+}
+
 #groups {
     width: 100%;
-    height: 444px;
+    height: 432px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
